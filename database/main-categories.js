@@ -20,12 +20,12 @@ const products = [
     div.innerHTML = `
       <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6">
         <div class="cats-wrap text-center">
-          <a href="listing-search-v1.html" class="Goodup-catg-wrap">
-            <div class="Goodup-catg-city">07 Cities</div>
+          <a href="${product.link}" class="Goodup-catg-wrap">
+            <div class="Goodup-catg-city">${product.groups}</div>
               <div class="Goodup-catg-icon"><i class="fas fa-stethoscope"></i></div>
               <div class="Goodup-catg-caption">
               <h4 class="fs-md mb-0 ft-medium m-catrio">${product.name}</h4>
-              <span class="text-muted">607 Listings</span>
+              <!--<span class="text-muted">607 Listings</span>-->
             </div>
           </a>
         </div>
