@@ -18,12 +18,17 @@ const products = [
     const div = document.createElement("div");
     div.className = "i-box-s1";
     div.innerHTML = `
-      <div class="thumb">
-        <img src="assets/images/categoryicons/facebook_groups_category.png" alt="" />
-      </div>
-      <div class="content">
-        <h3>${product.name} (${product.groups})</h3>
-        <a href="${product.link}" class="f-btn">View All<i class="fa-solid fa-arrow-right"></i></a>
+      <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6">
+        <div class="cats-wrap text-center">
+          <a href="listing-search-v1.html" class="Goodup-catg-wrap">
+            <div class="Goodup-catg-city">07 Cities</div>
+              <div class="Goodup-catg-icon"><i class="fas fa-stethoscope"></i></div>
+              <div class="Goodup-catg-caption">
+              <h4 class="fs-md mb-0 ft-medium m-catrio">Dentists</h4>
+              <span class="text-muted">607 Listings</span>
+            </div>
+          </a>
+        </div>
       </div>
     `;
     container.appendChild(div);
