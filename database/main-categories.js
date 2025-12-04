@@ -2,7 +2,7 @@ const products = [
     { name: "Daily Home Needs", link: "daily-home-needs.html", groups: 7 },
   ];
 
-  const container = document.getElementById("catagories-sec-inner");
+  const container = document.getElementById("live_data1");
 
   // Remove duplicates by link
   const uniqueProducts = products.filter(
