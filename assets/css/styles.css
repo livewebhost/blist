@@ -24,18 +24,18 @@
 ------------- List Of Table ----------*/
 
 /* CSS Document */
-@import url(plugins/animation.css);
-@import url(plugins/bootstrap.min.html);
-@import url(plugins/slick.html);
-@import url(plugins/slick-theme.css);
-@import url(plugins/dropzone.css);
-@import url(plugins/magnificpopup.html);
-@import url(plugins/date-picker.html);
-@import url(plugins/themify.html);
-@import url(plugins/line-icons.css);
-@import url(plugins/iconfont.css);
-@import url(plugins/font-awesome.html);
-@import url(plugins/flaticon.html);
+@import url(../css/plugins/animation.css);
+@import url(../css/plugins/bootstrap.min.css);
+@import url(../css/plugins/slick.css);
+@import url(../css/plugins/slick-theme.css);
+@import url(../css/plugins/dropzone.css);
+@import url(../css/plugins/magnificpopup.css);
+@import url(../css/plugins/date-picker.css);
+@import url(../css/plugins/themify.css);
+@import url(../css/plugins/line-icons.css);
+@import url(../css/plugins/iconfont.css);
+@import url(../css/plugins/font-awesome.css);
+@import url(../css/plugins/flaticon.css);
 
 /*------------------------------------
 	Using Fonts
