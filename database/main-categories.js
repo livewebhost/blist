@@ -24,7 +24,7 @@ const products = [
             <div class="Goodup-catg-city">07 Cities</div>
               <div class="Goodup-catg-icon"><i class="fas fa-stethoscope"></i></div>
               <div class="Goodup-catg-caption">
-              <h4 class="fs-md mb-0 ft-medium m-catrio">Dentists</h4>
+              <h4 class="fs-md mb-0 ft-medium m-catrio">${product.name}</h4>
               <span class="text-muted">607 Listings</span>
             </div>
           </a>
