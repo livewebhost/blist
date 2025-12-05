@@ -17,21 +17,17 @@ const products = [
 
   // Append HTML blocks
   uniqueProducts.forEach(product => {
-    const div = document.createElement("div");
-    //div.className = "i-box-s1";
-    div.innerHTML = `
+    container.innerHTML += `
       <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6">
         <div class="cats-wrap text-center">
           <a href="${product.link}" class="Goodup-catg-wrap">
             <div class="Goodup-catg-city" style="right: 12px; left: unset;">${product.groups}</div>
-              <div class="Goodup-catg-icon"><i class="fas fa-stethoscope"></i></div>
-              <div class="Goodup-catg-caption">
+            <div class="Goodup-catg-icon"><i class="fas fa-stethoscope"></i></div>
+            <div class="Goodup-catg-caption">
               <h4 class="fs-md mb-0 ft-medium m-catrio">${product.name}</h4>
-              <!--<span class="text-muted">607 Listings</span>-->
             </div>
           </a>
         </div>
       </div>
     `;
-    container.appendChild(div);
   });
