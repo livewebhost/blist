@@ -1,5 +1,7 @@
 const products = [
-    { name: "Daily Home Needs", link: "daily-home-needs.html", groups: 7 },
+    { name: "Daily Home Needs", link: "daily-home-needs.html", groups: 1 },
+    { name: "Business Needs & Office Supplies", link: "business-needs-and-office-supplies.html", groups: 2 },
+    { name: "Repairs & Service", link: "repairs-and-service.html", groups: 3 },
   ];
 
   const container = document.getElementById("live_data1");
