@@ -18,7 +18,7 @@ const products = [
   // Append HTML blocks
   uniqueProducts.forEach(product => {
     const div = document.createElement("div");
-    div.className = "i-box-s1";
+    //div.className = "i-box-s1";
     div.innerHTML = `
       <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6">
         <div class="cats-wrap text-center">
